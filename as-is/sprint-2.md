@@ -52,6 +52,8 @@ CREATE INDEX `thumbs_fk_play` ON `thumbs` (`play_id` ASC);
 
 ## [Class 5 - Introduction to SQL](https://learn.lambdaschool.com/ds/module/recmwiPQG5zueKFCG/)
 
+a.k.a. analytical sql
+
 > Challenges:
 >  + Imagine the customers table also has address and customer_since attributes (where customer_since is a year). Write a query to get all names and addresses of customers living in Colorado who have been customers for at least 10 years.
 >  + Come up with your own real-world examples of situations/data that can be modeled with one-to-one, one-to-many, and many-to-many relationships. Write “pseudo-SQL” to describe and query the data.
@@ -78,16 +80,19 @@ C Side / Next Class:
    + DB Management SQL (CREATE DATABASE, CREATE TABLE, INSERT INTO, ETC.)
    + SQLite Python (connections, cursor, queries, etc).
 
-Next Class:
-
-
 
 ## [Class 6 - SQL for Analysis](https://learn.lambdaschool.com/ds/module/recSdx6IFkDxqgxGb/)
 
-> Challenge: Write a Python function to generate random data for insertion, and execute it in a loop in order to generate and insert a large quantity of data.
+a.k.a admin and programmatic sql
 
-   + DB Management SQL (CREATE DATABASE, CREATE TABLE, INSERT INTO, ETC.)
-   + PG Python (connections, cursor, queries, etc).
+> Objectives:
+>   + Install pgAdmin, and then follow the instructions to connect to ElephantSQL.
+>   + Write a Python function to generate random data for insertion, and execute it in a loop in order to generate and insert a large quantity of data.
+
+   + DB Management SQL (CREATE DATABASE, CREATE TABLE, INSERT INTO, DELETE, ETC.)
+   + PG Python w/ psycopg (connections, cursor, queries, etc.)
+
+Goal: ETL insert rows
 
 ## [Class 7 - NoSQL and Document-Oriented Databases](https://learn.lambdaschool.com/ds/module/rec3JRFsRH2yeALwS/)
 
